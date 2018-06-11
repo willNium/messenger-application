@@ -15,5 +15,10 @@ simple messaging app that was built around conversations
    - ```yarn start```
    - Open a second terminal and run ```cd server && npm run start```
    - Visit http://localhost:3000 and start using the app
-    - recommend opening multiple tabs to chat with multiple parties
+    - recommend opening a new tab for each user that you want to join the conversation
+    - click 'exit conversation' to leave
     - notice the conversation contents change based on who is logged in
+
+
+#### bugs
+ - "session manangement" - if users are lingering to the right of the chat window it's probably best to close all tabs and drop the `messages` and `activeUsers` collections in mongo and start fresh
