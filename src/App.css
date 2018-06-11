@@ -1,0 +1,70 @@
+
+.app-container {
+  padding: 40px;
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.chat-container {
+  width: 400px;
+}
+
+.chat-container form {
+  padding: 10px;
+}
+
+.chat-window {
+  border: 1px solid gray;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-text: left;
+  padding: 10px;
+}
+
+input[type="submit"] {
+   margin-left: 5px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.chat-message {
+  text-align: left;
+  padding-bottom: 2px;
+}
+
+.sidebar {
+  width: 100px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.active-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.login-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.login-container form {
+  padding: 50px;
+}
+
+.login-container form input {
+  margin-left: 5px;
+}
