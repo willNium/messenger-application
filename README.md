@@ -1,6 +1,5 @@
 # messenger application
-simple messaging app that was built around conversations
- - all messages between each combination of users are saved
+simple messaging app built with react, express, and mongo
 
 ## Clonining the App
  - ```git clone https://github.com/willNium/messenger-application.git```
@@ -17,7 +16,7 @@ simple messaging app that was built around conversations
    - Visit http://localhost:3000 and start using the app
     - recommend opening a new tab for each user that you want to join the conversation
     - click 'exit conversation' to leave
-    - notice the conversation contents change based on who is logged in
+    - the conversation contents should change based on who is logged in
 
 
 #### bugs
